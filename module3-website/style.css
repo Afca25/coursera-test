@@ -1,3 +1,21 @@
 body {
   font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+}
+
+/* HEADER */
+#header-nav {
+  background-color: #f6b319;
+  border: 0;
+  border-radius: 0;
+}
+
+#logo-img {
+  background: url("https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture30/after/images/restaurant-logo_large.png?raw=true")
+    no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
 }
