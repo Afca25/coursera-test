@@ -13,7 +13,7 @@ body {
 }
 
 #logo-img {
-  background: url("https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture30/after/images/restaurant-logo_large.png?raw=true")
+  background: url("images/restaurant-logo_large.png")
     no-repeat;
   width: 150px;
   height: 150px;
@@ -53,6 +53,4 @@ margin-top: 15px;
 vertical-align: middle;
 }
 
-.pull-left {
-  float: left;
-}
+
