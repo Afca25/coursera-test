@@ -124,7 +124,6 @@ body {
     height: 100px;
     margin: 5px 5px 5px 0;
   }
-  /* End Header*/
 
   .container .jumbotron {
     background: url("images/jumbotron_992.jpg") no-repeat;
@@ -206,90 +205,147 @@ body {
   }
 }
 
-  /* Home Tiles */
+/* Super Extra Small devices only (like iPhone 4) */
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 {
+    /* Restaurant Name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
 
+  /* Home Page */
   #menu-tile,
-  #specials-tile,
-  #map-tile {
-    height: 250px;
-    width: 100%;
-    margin-bottom: 15px;
-    position: relative;
-    border: 2px solid #3f013f;
-    overflow: hidden;
-  }
-
-  #menu-tile:hover,
-  #specials-tile:hover,
-  #map-tile:hover {
-    box-shadow: 0 1px 5px 1px #cccccc;
-  }
-
-  #menu-tile {
-    background: url("images/menu-tile.jpg") no-repeat;
-    background-position: center;
-  }
-
   #specials-tile {
-    background: url("images/specials-tile.jpg") no-repeat;
-    background-position: center;
+    width: 280px;
+    margin: 0 auto 15px;
   }
 
-  #map-tile {
-    background: url("")
-  }
-
-  #menu-tile span,
-  #specials-tile span,
-  #map-tile span {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
     width: 100%;
-    text-align: center;
-    font-size: 1.6em;
-    text-transform: uppercase;
-    background-color: #000;
-    color: #fff;
-    opacity: 0.8;
   }
+}
 
-  /* Footer */
+/* Home Tiles */
 
-  .panel-footer {
-    margin-top: 30px;
-    padding-top: 35px;
-    padding-bottom: 30px;
-    border-top: 0%;
-    background-color: #222;
-  }
+#menu-tile,
+#specials-tile,
+#map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3f013f;
+  overflow: hidden;
+}
 
-  .panel-footer div .row {
-    margin-bottom: 35px;
-  }
+#menu-tile:hover,
+#specials-tile:hover,
+#map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
 
-  #hours,
-  #address {
-    line-height: 2;
-  }
+#menu-tile {
+  background: url("images/menu-tile.jpg") no-repeat;
+  background-position: center;
+}
 
-  #hours > span, #address > span {
-    font-size: 1.3em;
-  }
+#specials-tile {
+  background: url("images/specials-tile.jpg") no-repeat;
+  background-position: center;
+}
 
-  #address p {
-    color: #557c3e;
-    font-size: 0.8em;
-    line-height: 1.8;
-  }
+#menu-tile span,
+#specials-tile span,
+#map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.8;
+}
 
-  #testimonials {
-    font-style: italic;
-  }
+/* Footer */
 
-  #testimonials p:nth-child(2) {
-    margin-top: 25px;
-  }
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  border-top: 0%;
+  background-color: #222;
+}
 
-  /* End Footer */
-  /* END HOME PAGE */
+.panel-footer div .row {
+  margin-bottom: 35px;
+}
+
+#hours,
+#address {
+  line-height: 2;
+}
+
+#hours > span,
+#address > span {
+  font-size: 1.3em;
+}
+
+#address p {
+  color: #557c3e;
+  font-size: 0.8em;
+  line-height: 1.8;
+}
+
+#testimonials {
+  font-style: italic;
+}
+
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+
+/* End Footer */
+/* END HOME PAGE */
+
+/* Menu Categories Page */
+.category-tile {
+  position: relative;
+  border: 2px solid #3f0c1f;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px; /* [top] [sides] [bottom] */
+}
+
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #ccc;
+}
+
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+
+/* End Menu Categories Page */
