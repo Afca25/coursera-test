@@ -35,14 +35,17 @@ body {
   background-color: rgb(201, 201, 201);
 }
 
+
+
 #collapsable-nav {
   text-align: center;
   font-size: 1.2em;
-  color: #337ab7;
   border: 2px solid rgb(99, 99, 99);
   border-right: 0px;
   border-left: 0px;
 }
+
+
 
 #collapsable-nav li:nth-child(1) {
   margin-top: -10px
@@ -66,6 +69,7 @@ body {
 
 /* BODY */
 
-div.chicken {
+div.menu-item {
   height: 1000px;
 }
+
