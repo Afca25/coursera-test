@@ -12,6 +12,7 @@ body {
   background-color: coral;
   border: 0;
   border-radius: 0;
+  height: 100px;
 }
 
 .navbar-brand {
