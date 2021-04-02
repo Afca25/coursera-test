@@ -2,14 +2,30 @@
   box-sizing: border-box;
 }
 
-.navbar-header {
+/* HEADER */
+
+#header-nav {
   background-color: coral;
+  border: 0;
+  border-radius: 0;
 }
 
 .navbar-brand {
-  margin-left: 30px;
+  height: 80px;
 }
 
-.navbar-brand h1 {
-  text-decoration-line: none;
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid #337ab7;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -45px;
+  margin-bottom: 50px;
 }
