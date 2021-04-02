@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar-header {
+  background-color: coral;
+}
+
+.navbar-brand {
+  margin-left: 30px;
+}
+
+.navbar-brand h1 {
+  text-decoration-line: none;
+}
