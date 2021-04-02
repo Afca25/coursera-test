@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-size: 16px;
+}
+
 /* HEADER */
 
 #header-nav {
@@ -28,4 +32,40 @@
   clear: both;
   margin-top: -45px;
   margin-bottom: 50px;
+  background-color: rgb(201, 201, 201);
+}
+
+#collapsable-nav {
+  text-align: center;
+  font-size: 1.2em;
+  color: #337ab7;
+  border: 2px solid rgb(99, 99, 99);
+  border-right: 0px;
+  border-left: 0px;
+}
+
+#collapsable-nav li:nth-child(1) {
+  margin-top: -10px
+}
+
+#collapsable-nav li:nth-child(2) {
+  margin-top: -20px 
+}
+
+#collapsable-nav li:nth-child(3) {
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+#nav-list hr {
+  border: 0.3px solid rgb(99, 99, 99);
+}
+
+/* END HEADER */
+
+
+/* BODY */
+
+div.chicken {
+  height: 1000px;
 }
