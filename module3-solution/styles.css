@@ -4,6 +4,8 @@
 
 body {
   font-size: 16px;
+  font-family: "Quicksand", sans-serif;
+  color: rgb(99, 99, 99);
 }
 
 /* HEADER */
@@ -40,11 +42,57 @@ body {
   font-size: 1.2em;
 }
 
-
 /* END HEADER */
 
 /* BODY */
 
-div.menu-item {
-  height: 1000px;
+.main-title {
+  /* Our Menu */
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-decoration: underline;
 }
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.row {
+  width:100%;
+  margin: 0;
+}
+
+.box-title {
+  /* Chicken, Beef, Sushi */
+  margin-bottom: 2vh;
+}
+
+.menu-item {
+  /* box itself */
+  margin: .01vw;
+  padding: 1vw;
+  border: 1px solid rgb(99, 99, 99);
+}
+
+
+
+/* Extra-small devices only 
+@media (max-width: 767px) {
+}
+
+/* Small devices only 
+@media (min-width: 768px) and (max-width: 991px) {
+  .box-item {
+    width: 49%;
+}
+
+/* Medium, Large and Extra-large devices only 
+@media (min-width: 992px) {
+  .box-item {
+    width: 33%;
+  }
+}
+*/
