@@ -5,7 +5,7 @@
 body {
   font-size: 16px;
   font-family: "Quicksand", sans-serif;
-  color: rgb(99, 99, 99);
+  color: rgb(44, 43, 43);
 }
 
 /* HEADER */
@@ -75,6 +75,7 @@ body {
   margin: 1vh .01vw;
   padding: 1vw;
   border: 1px solid rgb(99, 99, 99);
+  background-color: rgb(226, 222, 222)
 }
 
 
