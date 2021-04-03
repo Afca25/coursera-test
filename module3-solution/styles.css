@@ -72,7 +72,7 @@ body {
 
 .menu-item {
   /* box itself */
-  margin: .01vw;
+  margin: 1vh .01vw;
   padding: 1vw;
   border: 1px solid rgb(99, 99, 99);
 }
