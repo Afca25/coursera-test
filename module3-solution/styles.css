@@ -79,20 +79,8 @@ body {
 
 
 
-/* Extra-small devices only 
-@media (max-width: 767px) {
-}
-
-/* Small devices only 
+/* Small devices only */
 @media (min-width: 768px) and (max-width: 991px) {
-  .box-item {
-    width: 49%;
+  #box3 {
+    width: 100%;
 }
-
-/* Medium, Large and Extra-large devices only 
-@media (min-width: 992px) {
-  .box-item {
-    width: 33%;
-  }
-}
-*/
